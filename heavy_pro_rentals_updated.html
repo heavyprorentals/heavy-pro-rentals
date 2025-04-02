@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Heavy Pro Rentals</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@700&family=Roboto:wght@900&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Orbitron', sans-serif;
+      font-weight: 900;
+      letter-spacing: 2px;
+    }
+    .reserve-button {
+      background: linear-gradient(90deg, #facc15, #eab308);
+      color: black;
+      padding: 0.75rem 2rem;
+      border-radius: 9999px;
+      font-weight: 900;
+      text-transform: uppercase;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease, background 0.3s ease;
+    }
+    .reserve-button:hover {
+      transform: scale(1.05);
+      background: linear-gradient(90deg, #eab308, #facc15);
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-200 to-gray-400 text-gray-900">
+  <header class="bg-gradient-to-r from-yellow-500 to-yellow-700 text-black py-12 shadow-2xl border-b-4 border-black">
+    <div class="container mx-auto text-center">
+      <img src="logo.png" alt="Heavy Pro Rentals Logo" class="w-40 h-40 mx-auto mb-6 object-contain rounded-full shadow-2xl border-4 border-black">
+      <h1 class="text-7xl font-extrabold uppercase tracking-widest">Heavy Pro Rentals</h1>
+      <p class="text-2xl mt-4 font-black tracking-wider uppercase">Reliable Equipment. Built for Tough Jobs.</p>
+    </div>
+  </header>
+
+  <section class="bg-white py-24 shadow-inner">
+    <div class="container mx-auto text-center">
+      <h2 class="text-5xl font-extrabold text-yellow-600 mb-10 uppercase tracking-wide">Our Equipment</h2>
+      <p class="mb-12 text-xl max-w-3xl mx-auto text-gray-800 font-bold">
+        Rent top-tier construction equipment daily, weekly, or monthly. Built for performance, trusted by professionals.
+      </p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+
+        <!-- Skid Steer -->
+        <div class="p-8 bg-gray-100 rounded-2xl shadow-xl border-2 border-black hover:shadow-2xl transition">
+          <div class="w-full h-80 bg-white rounded mb-6 flex items-center justify-center text-gray-700 italic font-bold uppercase">
+            <img src="skid-steer.jpg" alt="Bobcat Skid Steer" class="object-contain h-full w-full rounded">
+          </div>
+          <h3 class="text-3xl font-extrabold text-black mb-2 uppercase">Bobcat Skid Steer</h3>
+          <p class="text-gray-800 font-semibold mb-4">Compact and built to perform on every construction site.</p>
+          <a href="skid-steer.html" class="reserve-button text-sm">Details</a>
+        </div>
+
+        <!-- Mini Excavator -->
+        <div class="p-8 bg-gray-100 rounded-2xl shadow-xl border-2 border-black hover:shadow-2xl transition">
+          <div class="w-full h-80 bg-white rounded mb-6 flex items-center justify-center text-gray-700 italic font-bold uppercase">
+            <img src="mini-excavator.jpg" alt="Mini Excavator" class="object-contain h-full w-full rounded">
+          </div>
+          <h3 class="text-3xl font-extrabold text-black mb-2 uppercase">Mini Excavator</h3>
+          <p class="text-gray-800 font-semibold mb-4">Dig, trench, and lift with precision even in the tightest spaces.</p>
+          <a href="mini-excavator.html" class="reserve-button text-sm">Details</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="bg-gradient-to-br from-white to-gray-200 py-24 border-t-4 border-black">
+    <div class="container mx-auto text-center">
+      <h2 class="text-5xl font-extrabold text-yellow-600 mb-10 uppercase tracking-wide">We Service Miami-Dade & Broward</h2>
+      <p class="mb-12 max-w-2xl mx-auto text-xl text-gray-900 font-bold">Proudly serving construction and residential projects across South Florida.</p>
+    </div>
+  </section>
+
+  <section class="bg-white py-24 border-t-4 border-black">
+    <div class="container mx-auto text-center">
+      <h2 class="text-5xl font-extrabold text-yellow-600 mb-10 uppercase tracking-wide">Gallery</h2>
+      <p class="mb-12 text-xl text-gray-800 font-bold max-w-3xl mx-auto">Gallery coming soon — check back for photos of our equipment in action!</p>
+    </div>
+  </section>
+
+  <section class="bg-white py-24 text-center border-t-4 border-black">
+    <div class="container mx-auto">
+      <h2 class="text-5xl font-extrabold mb-6 text-yellow-600 uppercase tracking-wide">Contact Us</h2>
+      <p class="text-xl mb-6 text-gray-800 font-bold">We’re ready to help you with all your equipment rental needs. Contact us for quotes and availability.</p>
+      <p class="font-extrabold text-2xl text-black">📞 305-796-9401</p>
+      <p class="text-xl text-black font-bold">📧 heavyprorentals@gmail.com</p>
+      <div class="mt-8 flex flex-col sm:flex-row justify-center items-center gap-4">
+        <a href="mailto:heavyprorentals@gmail.com" class="reserve-button text-xl">Contact Now</a>
+        <a href="https://tidycal.com/heavyprorentals" target="_blank" class="reserve-button text-xl">Book Now</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gradient-to-r from-black to-gray-800 text-yellow-400 text-center py-6 border-t-4 border-yellow-500">
+    <p class="text-sm font-bold">&copy; 2025 Heavy Pro Rentals. All rights reserved.</p>
+  </footer>
+</body>
+</html>
